@@ -11,5 +11,7 @@ then tap "cd cd Python-3.6.4/"
 after the screen stopping, tap "make&&sudo make install"
 
 Create virtual env:
-"virtualenv /path/to/venv --python=python3.6"  #"venv" is the name of virtual env, python version can be modified
+"virtualenv /path/to/venv --python=python3.6 --pip 3"  #"venv" is the name of virtual env, python version can be modified, 
+Causion, if not specify the pip version, the pip not work. This confused me a lot in the past!
 tap ". /path/to/venv/bin/activate" to activate the env
+tap "deactivate" to quit the env
