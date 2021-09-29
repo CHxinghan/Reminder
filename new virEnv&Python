@@ -1,2 +1,15 @@
-# If the version of Python is not on-premise:
+##Remain to be modifired##
+Ref:http://c.biancheng.net/view/4162.html
+Install Python:
+If the version of Python is not on-premise:
 Download it from https://www.python.org/downloads/source/
+unzip,for example, if the new file named "Python-3.6.4.tgz"
+then the command is: tar -zxvf Python-3.6.4.tgz
+then tap "cd cd Python-3.6.4/"
+"./configure  --prefix=/usr/local"
+"/usr/local" is the Installation postion
+after the screen stopping, tap "make&&sudo make install"
+
+Create virtual env:
+"virtualenv /path/to/venv --python=python3.6"  #"venv" is the name of virtual env, python version can be modified
+tap ". /path/to/venv/bin/activate" to activate the env
