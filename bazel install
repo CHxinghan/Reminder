@@ -1,3 +1,4 @@
+use the bazel installer (see :https://docs.bazel.build/versions/4.2.1/install-ubuntu.html#install-with-installer-ubuntu  ——Using the binary installer )to install 0.21.0 version since i install the newest first and when inatall tf ,it told me to downgrade to 0.21.0
 by install in virtual env(slbo_) 
 somthing wrong with the path set
 by tap "export PATH="$PATH:$HOME/bin",it's work
