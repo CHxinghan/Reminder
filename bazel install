@@ -1,0 +1,4 @@
+by install in virtual env(slbo_) 
+somthing wrong with the path set
+by tap "export PATH="$PATH:$HOME/bin",it's work
+but im not sure whether is one-time work or perminate（？）
