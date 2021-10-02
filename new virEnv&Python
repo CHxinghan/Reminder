@@ -1,5 +1,6 @@
 #########seems it is work!!!
 https://www.snippetbucket.com/ubuntu-20-install-python-3-6/
+seems that under this method everything goes well. I can use python -m pip install tensorflow==1.13.2 to install tf 1.x!
 ##########################################################
 
 
