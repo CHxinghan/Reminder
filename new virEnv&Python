@@ -8,6 +8,14 @@ then the command is: tar -zxvf Python-3.6.4.tgz
 then tap "cd cd Python-3.6.4/"
 "./configure  --prefix=/usr/local"
 "/usr/local" is the Installation postion
+#####new mistake found in 21/10/2####################
+if i specify py36 install location is /usr/local,
+when i tap python3 ,python 3.6.4 will launch
+but when i use pip/pip3 tools will be install in python3.8 site-packages
+what's more 
+although i specify py36 and pip3 in virtualenv
+pip will install in py38 and import numpy(for example) the module counld not be found
+#####################################################
 after the screen stopping, tap "make&&sudo make install"
 
 Create virtual env:
